@@ -28,16 +28,18 @@ This project consumes the public [FIPE API](https://deividfortuna.github.io/fipe
 fipe-api/
 ├── src/
 │   └── main/java/developer/ezandro/fipe/
-│       ├── model/       # Vehicle entities
-│       │   ├── Car.java             # Car model with specific attributes
-│       │   ├── Motorcycle.java      # Motorcycle model with engine capacity
-│       │   └── Truck.java           # Truck model with load capacity and axles
-│       ├── service/     # API integration
-│       │   ├── FipeApiClient.java        # HTTP client for API requests
-│       │   └── FipeDataDeserializer.java # JSON data processing
-│       ├── ui/          # User interface
-│       │   └── Menu.java                 # Interactive console menu
-│       └── FipeApplication.java  # Main class and entry point
+│       ├── model/     
+│       │   ├── Car.java             
+│       │   ├── Motorcycle.java      
+│       │   └── Truck.java
+│       │   └── VehicleType.java          
+│       ├── service/  
+│       │   ├── FipeApiClient.java
+│       │   └── FipeDataDeserializer.java
+│       │   └── IFipeDataDeserializer.java
+│       ├── ui/ 
+│       │   └── Menu.java                
+│       └── FipeApplication.java
 ├── README.md            # Project documentation
 └── pom.xml              # Maven configuration and dependencies
 ```
