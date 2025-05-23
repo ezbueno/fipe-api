@@ -40,8 +40,8 @@ fipe-api/
 │       ├── ui/ 
 │       │   └── Menu.java                
 │       └── FipeApplication.java
-├── README.md            # Project documentation
-└── pom.xml              # Maven configuration and dependencies
+├── README.md  
+└── pom.xml            
 ```
 
 ## ▶️ How to Run
